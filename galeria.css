@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    margin: 16px;
+}
+
+
+.card{
+    display: inline-block;
+    width: 320px;
+    box-shadow: 5px 10px 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 20px;
+    border: 10px solid black;
+    background-image: url(fondodbz.avif);
+    background-position: center;
+    background-size: 100px;
+}
+
+.galeria{
+    display: flex;
+    justify-content:safe;
+    flex-wrap: wrap;
+    margin: 180px;
+    object-fit: cover;
+}
+
+.img{
+    border-radius: 10px 10px 10px 10px;
+    border: 6px solid black;
+    display: block;
+    margin: 5px auto;
+    border-radius: 10px 10px 0 0;
+    width: 250px;
+    height: 360px;
+    filter: drop-shadow(0px 0px 10px rgb(73, 71, 71));
+    place-content: center;
+    background-image: url(lamina.avif);
+}
+
+.contenedor{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0 10px;
+}
+
+.texto{
+    display: block;
+    padding: 0 0 20px 0;
+}
+
+.boton{
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: orange;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+p{
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
